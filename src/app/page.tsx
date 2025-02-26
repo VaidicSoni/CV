@@ -166,6 +166,35 @@ export default function Page() {
             })}
           </div>
         </Section>
+        
+        <Section>
+          <h2 className="text-xl font-bold">Campus Activities</h2>
+          {RESUME_DATA.campusActivities.map((activity) => {
+            return (
+              <Card key={activity.title}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                      <a className="hover:underline">
+                      {activity.title}
+                      </a>
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {activity.start} - {activity.end}
+                    </div>
+                  </div>
+
+                  <h4 className="font-mono text-sm leading-none">
+                    {activity.location}
+                  </h4>
+                </CardHeader>
+                <CardContent className="mt-2 text-xs">
+                  {activity.description}
+                </CardContent>
+              </Card>
+              );
+            })}
+          </Section>      
       </section>
 
       <CommandMenu

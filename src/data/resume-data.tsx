@@ -61,7 +61,7 @@ export const RESUME_DATA = {
       start: "June 2024",
       end: "July 2024",
       description:
-        "Assessed IT security vulnerabilities, improved password protection using Hashcat, developed a web app for dynamic data visualization, and implemented RabbitMQ for asynchronous task processing, reducing API response times by 40%.",
+        "Assessed IT security at Goldman Sachs, identifying password hashing vulnerabilities using Hashcat and recommending enhancements. Built a dynamic web app with HTML, CSS, and JavaScript (ES6+), implementing local caching and Docker for scalability. Developed a RabbitMQ-based message queue, cutting API response times by 40% and improving system reliability.",
     },
     {
       company: "Pink Flower Higher Secondary School",
@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       start: "June 2022",
       end: "June 2023",
       description:
-        "Designed and managed data pipelines, automated ETL processes using Python and SQL, created interactive Power BI dashboards, and optimized database queries to improve report generation speed by 40%.",
+        "Designed and managed data pipelines for student performance data, ensuring efficient storage and retrieval. Developed ETL processes using Python and SQL to automate data collection. Created interactive visualizations with Power BI and Excel, enhancing data-driven decision-making. Optimized database queries, improving report generation speed by 40%.",
     },
     {
       company: "Pink Flower Higher Secondary School",
@@ -79,7 +79,7 @@ export const RESUME_DATA = {
       start: "June 2022",
       end: "June 2023",
       description:
-        "Mentored high school students on open-source development, taught HTTP and TCP/IP concepts, wrote Python scripts for automating grade transfers, and provided training in Git and GitHub.",
+        "Mentored high school students on open-source development, internet basics (HTTP, TCP/IP), and digital literacy. Automated grade transfers by writing Python scripts to parse data from third-party edtech software. Guided students on version control workflows in Git and GitHub, including repository management.",
     }
   ],
   skills: [
@@ -108,7 +108,7 @@ export const RESUME_DATA = {
     {
       title: "Portfolio Website",
       techStack: ["HTML", "CSS", "JavaScript"],
-      description: "Built a responsive portfolio website showcasing projects and technical skills, implementing JavaScript animations.",
+      description: "Built a responsive portfolio website showcasing projects and technical skills, implementing HTML, CSS, and JavaScript animations.",
       link: {
         label: "github.com",
         href: "https://vaidicsoni.github.io/",
@@ -121,14 +121,14 @@ export const RESUME_DATA = {
       location: "Texas State University",
       start: "Aug 2024",
       end: "Present",
-      description: "Supervise a residence hall floor, serve as an emergency contact, and organize student engagement programs.",
+      description: "• Supervise and support a residence hall floor of 25+ students, serving as a 24/7 emergency contact and resource. • Trained in trauma detection, CPR, and emergency response to ensure resident safety and crisis management. • Plan and lead community programs, fostering student engagement, teamwork, and a supportive living environment.",
     },
     {
       title: "Information Desk Assistant",
       location: "Texas State University",
       start: "Jan 2024",
       end: "May 2024",
-      description: "Managed administrative tasks, coordinated schedules, and provided campus information to visitors.",
+      description: "• Managed administrative tasks, including data entry, document preparation, and maintaining organized records. • Maintained an organized workspace and assisted in coordinating schedules to ensure smooth desk operations. • Delivered clear and accurate information about campus services, policies, and upcoming events, enhancing visitor experience and accessibility.",
     }
   ]
 }
