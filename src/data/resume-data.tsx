@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       start: "June 2022",
       end: "June 2023",
       description:
-        "Designed and managed data pipelines for student performance data, ensuring efficient storage and retrieval. Developed ETL processes using Python and SQL to automate data collection. Created interactive visualizations with Power BI and Excel, enhancing data-driven decision-making. Optimized database queries, improving report generation speed by 40%.",
+        "Designed and optimized student performance analytics storage and retrieval using Python (Pandas, SQLAlchemy) and Scala, built ETL pipelines with Python and PostgreSQL for automated data extraction, and improved database query efficiency by 40% for faster reporting.",
     },
     {
       company: "Pink Flower Higher Secondary School",
